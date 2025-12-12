@@ -71,5 +71,26 @@ button{
    background-color: rgb(226, 223, 223);
    border-radius: 5%;
    margin: 15px;
-   padding: 15px; 
+   padding: 15px;
+   cursor: pointer; 
 }
+
+button:hover{
+    background-color: rgb(44, 102, 179);
+}
+
+/**** ENHANCEMENTS *****/
+
+aside article:first-of-type img{
+    transition: transform 2s ease;
+}
+aside article:first-of-type:hover img{
+    transform: rotate(30deg);
+}
+
+aside article:last-of-type img{
+    transform: rotate(40deg);
+}
+
+
+
