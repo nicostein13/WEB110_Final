@@ -92,7 +92,7 @@ aside article:last-of-type img{
     transform: rotate(40deg);
 }
 
-/**** RESPONSIVE DESIGN *****/
+/**** RESPONSIVE DESIGN MENU *****/
 
 nav ul{
     display: flex;
@@ -109,5 +109,19 @@ nav ul li {
     }
     nav ul li {
         width: 100%;
+    }
+}
+
+/**** RESPONSIVE DESIGN FORM *****/
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 530px) {
+    label:first-of-type {
+        flex-direction: column;
+        align-items: flex-start;  
     }
 }
