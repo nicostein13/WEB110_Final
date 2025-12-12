@@ -137,6 +137,14 @@ label{
         border-left: none;
         border-top: 1px solid black;
         width: 100%;
-    }
+    }   
+    
 }
 
+/**** RESPONSIVE DESIGN HEADING *****/
+
+@media (max-width: 530px) {
+    header h2 {
+        font-size: 48px;
+    } 
+}
