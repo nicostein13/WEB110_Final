@@ -81,10 +81,10 @@ button:hover{
 
 /**** ENHANCEMENTS *****/
 
-aside article:first-of-type img{
+aside > article:first-of-type img{
     transition: transform 2s ease;
 }
-aside article:first-of-type:hover img{
+aside > article:first-of-type img:hover{
     transform: rotate(30deg);
 }
 
@@ -125,3 +125,18 @@ label{
         align-items: flex-start;  
     }
 }
+
+/**** RESPONSIVE DESIGN MULTICOLUM LAYOUT *****/
+
+
+@media (max-width: 530px) {
+    aside {
+       display: grid;
+    }
+    article + article {
+        border-left: none;
+        border-top: 1px solid black;
+        width: 100%;
+    }
+}
+
