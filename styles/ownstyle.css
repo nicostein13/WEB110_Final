@@ -92,5 +92,22 @@ aside article:last-of-type img{
     transform: rotate(40deg);
 }
 
+/**** RESPONSIVE DESIGN *****/
 
+nav ul{
+    display: flex;
+}
 
+nav ul li {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;  
+        align-items: center;                
+    }
+    nav ul li {
+        width: 100%;
+    }
+}
