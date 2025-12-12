@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 720px;
+  max-width: 100%;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+th,
+td {
+  border: 2px solid #666;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: 580;
+  font-size: 40px;
+  font-family: Road Rage;
+}
+
+td {
+  font-size: 14px;
+}
+
+table tr:last-child td {
+  font-size: 12px;
+  padding: 12px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 64px;
+    margin-bottom: 32;
+}
